@@ -4,10 +4,10 @@ static const Block blocks[] = {
     {"",        "localIP",                      600,                601},
     //{"",        "volume",                       0,                  10},
     //{"",        "battery",                      300,                302},
-    {"",       "checkupdates+aur | wc -l",     600,                600},
+    {"",       "checkupdates+aur | wc -l",     0,                  20},
     {"",       "cpuPercentage",                300,                301},
 	{"",       "memoryPercentage",	            300,	            300},
-	{"",        "date '+%Y.%m.%d %H:%M'",   	60,	            	60},
+	{"",        "date '+[%w] %Y.%m.%d %H:%M'",  60,	            	60},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.

@@ -5,8 +5,8 @@ static const Block blocks[] = {
     //{"",        "volume",                       0,                  10},
     //{"",        "battery",                      300,                302},
     {"",       "checkupdates+aur | wc -l",     0,                  20},
-    {"",       "cpuPercentage",                300,                301},
-	{"",       "memoryPercentage",	            300,	            300},
+    {"",       "cpu-percentage",               300,                301},
+	{"",       "mem-percentage",	            300,	            300},
 	{"",        "date '+[%w] %Y.%m.%d %H:%M'",  60,	            	60},
 };
 

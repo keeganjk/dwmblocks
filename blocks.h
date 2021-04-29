@@ -4,9 +4,9 @@ static const Block blocks[] = {
     {"",        "locip",                        600,                601},
     //{"",        "volume",                       0,                  10},
     //{"",        "battery",                      300,                302},
-    {"",       "checkupdates+aur | wc -l",     600,                20},
-    {"",       "cpu-percentage",               300,                301},
-	{"",       "mem-percentage",	            300,	            300},
+    {"UPD:",       "checkupdates+aur | wc -l",     600,                20},
+    {"CPU:",       "cpu-percentage",               300,                301},
+	{"MEM:",       "mem-percentage",	            300,	            300},
 	{"",        "date '+[%w] %Y.%m.%d %H:%M'",  60,	            	60},
 };
 
